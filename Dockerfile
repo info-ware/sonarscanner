@@ -4,3 +4,4 @@ FROM sonarsource/sonar-scanner-cli
 USER root
 RUN apt-get update && apt-get install -y cppcheck
 USER sonarqube
+
