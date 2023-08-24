@@ -1,5 +1,4 @@
 FROM sonarsource/sonar-scanner-cli
 
 # Install Cppcheck
-RUN apk update && apk add --no-cache cppcheck clang clang-extra-tools
-RUN apk add --no-cache cmake
+RUN apk update && apk add --no-cache cppcheck clang clang-extra-tools cmake
